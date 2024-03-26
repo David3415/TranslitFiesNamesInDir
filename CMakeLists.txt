@@ -1,0 +1,21 @@
+cmake_minimum_required(VERSION 3.26.3 FATAL_ERROR)
+
+project(TranslitFiesNamesInDir)
+
+add_executable(TranslitFiesNamesInDir FileRename2/main.cpp
+FileRename2/Utf16ToUtf8_Class.cpp
+FileRename2/Utf8ToUtf16_Class.cpp
+FileRename2/TranslitClass.cpp
+FileRename2/IfFileNameAlreadyExistsClass.cpp
+FileRename2/GetDirectoryfFromPathClass.cpp
+FileRename2/FileReplaceDialogClass.cpp
+FileRename2/CopyFileClass.cpp
+FileRename2/Utf16ToUtf8_Class.h
+FileRename2/Utf8ToUtf16_Class.h
+FileRename2/TranslitClass.h
+FileRename2/IfFileNameAlreadyExistsClass.h
+FileRename2/GetDirectoryfFromPathClass.h
+FileRename2/FileReplaceDialogClass.h
+FileRename2/CopyFileClass.h
+FileRename2/resource.h 
+)
